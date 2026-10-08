@@ -25,7 +25,9 @@
     <p id="ex2">2 - Alterar o texto do "Menu 2" para "Item 2" através da Tag.</p>
     <p id="ex3">3 - Inserir parênteses () nos comandos da classe "comandos".</p>
     <p id="ex4">4 - mudar cor do id "ex1" para verde e o segundo comando para azul</p>
-    <p id="div">5 - colocar uma borda na div com o querySelector</p>
+    <p id="ex5">5 - colocar uma borda na div com o querySelector</p>
+    <p id="ex6">6 - alterar o tamanho do texto do primeiro exercicio utilizando querySelector</p>
+
   </div>
   <script>
     //1 
@@ -38,7 +40,10 @@
     document.getElementsByClassName("comandos")[2].innerHTML = document.getElementsByClassName("comandos")[2].innerHTML + "()";
     document.getElementsByClassName("comandos")[1].style.color = "blue"; 
     document.getElementById("ex1").style.color = "green";
-    document.querySelector("div").style.border = "3px dashed red"
+    document.querySelector("div").style.border = "3px dashed red";
+    document.querySelector("#ex1").style.fontSize = "20px";
+
+
   </script>
 </body>
 </html>
